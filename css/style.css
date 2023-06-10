@@ -1,0 +1,90 @@
+body{
+    background-color: aquamarine;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+
+    background-color: green;
+    color: white;
+
+}
+
+.alphabet{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    width: 1400px;
+    color: black;
+
+    position: relative;
+    top: 90px;
+    left: 120px;
+}
+.key{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 65px;
+    width: 170px;
+
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.clasi{
+    color: black;
+    font-size: xxx-large;
+    position: absolute;
+    left: 750px;
+    top: 25px;
+}
+
+.image{
+
+    display: flex;
+    position: relative;
+    left: 790px;
+    top: 20px;
+
+    width: 150px;
+    height: 170px;
+
+    border-radius: 10px;
+    overflow: hidden; /* Cache le contenu de l'image en dehors de la zone */
+}
+
+.image img{
+    object-fit: cover; /* Ajuste la taille de l'image pour remplir la zone */
+    clip-path: inset(0px); /* Définit la zone de découpe pour afficher la partie souhaitée */
+
+    
+    background-color: green;
+}
+
+main h2{
+    text-align: center;
+}
+
+.compt h2{
+    position: relative;
+    top: 50px;
+}
+
+#reload{
+    position: relative;
+    top: 30px;
+    left: 790px;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 30px;
+    background-color: greenyellow;
+}
+
+
